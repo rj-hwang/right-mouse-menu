@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+; Open files
+[HKEY_CLASSES_ROOT\*\shell\notepad++]
+@="Open with Notepad++"
+"Icon"="D:\\app\\green\\npp.8.1.portable.x64\\notepad++.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\notepad++\command]
+@="\"D:\\app\\green\\npp.8.1.portable.x64\\notepad++.exe\" \"%1\""
+
+; This will make it appear when you right click ON a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+
+[HKEY_CLASSES_ROOT\Directory\shell\notepad++]
+@="Open folder with Notepad++"
+"Icon"="\"D:\\app\\green\\npp.8.1.portable.x64\\notepad++.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\notepad++\command]
+@="\"D:\\app\\green\\npp.8.1.portable.x64\\notepad++.exe\" \"%1\""
+
+; This will make it appear when you right click INSIDE a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\notepad++]
+@="Open folder with Notepad++"
+"Icon"="\"D:\\app\\green\\npp.8.1.portable.x64\\notepad++.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\notepad++\command]
+@="\"D:\\app\\green\\npp.8.1.portable.x64\\notepad++.exe\" \"%V\""
