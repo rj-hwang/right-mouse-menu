@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+; Open files
+[HKEY_CLASSES_ROOT\*\shell\sublime_text]
+@="Open with SublimeText"
+"Icon"="D:\\app\\green\\SublimeText_build_4107_x64\\sublime_text.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\sublime_text\command]
+@="\"D:\\app\\green\\SublimeText_build_4107_x64\\sublime_text.exe\" \"%1\""
+
+; This will make it appear when you right click ON a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+
+[HKEY_CLASSES_ROOT\Directory\shell\sublime_text]
+@="Open folder with SublimeText"
+"Icon"="\"D:\\app\\green\\SublimeText_build_4107_x64\\sublime_text.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\sublime_text\command]
+@="\"D:\\app\\green\\SublimeText_build_4107_x64\\sublime_text.exe\" \"%1\""
+
+; This will make it appear when you right click INSIDE a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\sublime_text]
+@="Open folder with SublimeText"
+"Icon"="\"D:\\app\\green\\SublimeText_build_4107_x64\\sublime_text.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\sublime_text\command]
+@="\"D:\\app\\green\\SublimeText_build_4107_x64\\sublime_text.exe\" \"%V\""
