@@ -1,0 +1,70 @@
+{
+    //...
+    "profiles":
+    {
+        "list":
+        [
+            //...
+            {
+                "commandline": "D:/app/green/Git/bin/bash.exe -li",
+                "hidden": false,
+                "icon": "D:/app/green/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "Git Bash",
+                "startingDirectory": "D:/data/sys-folder/下载"
+            },
+            {
+                "commandline": "D:/app/green/Git/bin/bash.exe -li",
+                "hidden": false,
+                "icon": "D:/app/green/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "Git Bash - gftaxi",
+                "startingDirectory": "D:/work/gitee-gftaxi"
+            },
+            {
+                "commandline": "D:/app/green/Git/bin/bash.exe -li",
+                "hidden": false,
+                "icon": "D:/app/green/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "Git Bash - simter",
+                "startingDirectory": "D:/work/github-simter"
+            },
+            {
+                "commandline": "cmd.exe /C \"postgres -D %PG_DATA%\"",
+                "name": "启动 PG96"
+            },
+            {
+                "commandline": "cmd.exe /C \"mvn jetty:run -o\"",
+                "name": "启动 BC",
+                "startingDirectory": "D:/work/gitee-bctaxi/bctaxi-build/bc-system"
+            },
+            {
+                "commandline": "cmd.exe /C \"mvn spring-boot:run -o -P r2dbc-postgres -D db.name=testdb -D db.username=tester -D db.password=password\"",
+                "name": "启动 simter-file",
+                "startingDirectory": "D:/work/github-simter/simter-file/simter-file-starter"
+            },
+            {
+                "commandline": "cmd.exe /C \"mvn spring-boot:run -o -P r2dbc-postgres -D db.name=testdb -D db.username=tester -D db.password=password\"",
+                "name": "启动 simter-operation",
+                "startingDirectory": "D:/work/github-simter/simter-operation/simter-operation-starter"
+            },
+            {
+                "commandline": "cmd.exe /C \"mvn spring-boot:run -o -P r2dbc-postgres -D db.name=testdb -D db.username=tester -D db.password=password\"",
+                "name": "启动 gftaxi-operation",
+                "startingDirectory": "D:/work/gitee-gftaxi/gftaxi-operation/gftaxi-operation-starter"
+            },
+            {
+                "commandline": "cmd.exe /C \"mvn spring-boot:run -o -P prod,r2dbc-postgres -D db.name=testdb -D db.username=tester -D db.password=password\"",
+                "name": "启动 repair",
+                "startingDirectory": "D:/work/gitee-gftaxi/gftaxi-repair/gftaxi-repair-starter"
+            },
+            {
+                "commandline": "cmd.exe /C \"mvn spring-boot:run -o -P prod,r2dbc-postgres -D db.name=testdb -D db.username=tester -D db.password=password\"",
+                "name": "启动 accident",
+                "startingDirectory": "D:/work/gitee-gftaxi/gftaxi-accident/gftaxi-accident-starter"
+            },
+            {
+                "commandline": "cmd.exe /C \"nexus /run\"",
+                "name": "启动 Nexus"
+            }
+        ]
+    },
+    //...
+}
