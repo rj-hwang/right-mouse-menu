@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; Open files
+[HKEY_CLASSES_ROOT\*\shell\wt]
+@="Windows Terminal"
+"Icon"="D:\\app\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\wt\command]
+@="C:\\Users\\RJ\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
+
+
+; This will make it appear when you right click INSIDE a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
+@="Windows Terminal"
+"Icon"="D:\\app\\terminal.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
+@="C:\\Users\\RJ\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
