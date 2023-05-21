@@ -1,0 +1,93 @@
+{
+  "name": "本文件为下载文件的配置文件",
+  "items": [
+    {
+      "name": "PortableGit-2.40.1-64-bit",
+      "size": "46.9 MB",
+      "date": "2023-04-26",
+      "file": "PortableGit-2.40.1-64-bit.7z.exe",
+      "url": "https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/PortableGit-2.40.1-64-bit.7z.exe",
+      "sha256": "9e1d819aef3284420adf6d923b0d4865254bd403641d915975e49ddea1e7cdf9"
+    },
+    {
+      "name": "Deno-1.33.4-x86_64-windows",
+      "size": "29.6 MB",
+      "date": "2023-05-18",
+      "file": "deno-x86_64-pc-windows-msvc.zip",
+      "url": "https://github.com/denoland/deno/releases/download/v1.33.4/deno-x86_64-pc-windows-msvc.zip",
+      "sha256": "F66842F3ED2B906F0DB503B2EEBD53C87240ADE0DD3045919A7A2BA12962C0E4"
+    },
+    {
+      "name": "Ant-1.10.13",
+      "size": "9.40 MB",
+      "date": "2023-01-10",
+      "file": "apache-ant-1.10.13-bin.zip",
+      "url": "https://dlcdn.apache.org//ant/binaries/apache-ant-1.10.13-bin.zip",
+      "sha512": "347e964db73d1f8e9fe110f135625920e09c8c9997e9950c405cfeec60b70750044a91ef0535d76d6f8e023de0788f2619be76fd91b7a80be9a6b569a16cc3e8"
+    },
+    {
+      "name": "Maven-3.9.2",
+      "size": "8.91 MB",
+      "date": "2023-05-11",
+      "file": "apache-maven-3.9.2-bin.zip",
+      "url": "https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.zip",
+      "sha512": "f7296534ce624f688268e55544ffdf0b37562ac71dbcede4fe4f994b4e9487b7d66934849204373e127cfacc709cd5fd9152a53c06d778fc391aee84aa3364a3"
+    },
+    {
+      "name": "MinGW32-12.2.0-i686-win32-msvcrt",
+      "size": "74.4 MB",
+      "date": "2022-12-11",
+      "file": "i686-12.2.0-release-win32-dwarf-msvcrt-rt_v10-rev2.7z",
+      "url": "https://github.com/niXman/mingw-builds-binaries/releases/download/12.2.0-rt_v10-rev2/i686-12.2.0-release-win32-dwarf-msvcrt-rt_v10-rev2.7z",
+      "sha512": "08EB37E98C57A0EDAA04BB7283DC82124862B27A6F7A96AA0251ACF6DC77AA9C3B487D7333BC68DB75DCFD2C34CA4D3DB2301BDF87BF9F8A811DDADFC5E783A9"
+    },
+    {
+      "name": "ffmpeg-6.0",
+      "size": "24.6 MB",
+      "date": "2023-03-04",
+      "file": "ffmpeg-release-essentials.7z",
+      "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z",
+      "sha256": "ee343e25f71cfd5b9de1f800dba2e5d4fd6da25118a82035acf7363f8086daa9"
+    },
+    {
+      "name": "node-v18.16.0-win-x64",
+      "size": "27.8 MB",
+      "date": "2023-04-13",
+      "file": "node-v18.16.0-win-x64.zip",
+      "url": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-win-x64.zip",
+      "sha256": "4b3bd4cb5570cc217490639e93a7e1b7a7a341981366661e514ce61941824a85"
+    },
+    {
+      "name": "yarn-v1.22.19",
+      "size": "1.18 MB",
+      "date": "2022-05-11",
+      "file": "yarn-v1.22.19.tar.gz",
+      "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.19/yarn-v1.22.19.tar.gz",
+      "sha256": "732620BAC8B1690D507274F025F3C6CFDC3627A84D9642E38A07452CC00E0F2E"
+    },
+    {
+      "name": "VSCode-win32-x64-1.78.2",
+      "size": "123 MB",
+      "date": "2023-05-12",
+      "file": "VSCode-win32-x64-1.78.2.zip",
+      "url": "https://az764295.vo.msecnd.net/stable/b3e4e68a0bc097f0ae7907b217c1119af9e03435/VSCode-win32-x64-1.78.2.zip",
+      "sha256": "B9CFD4A5A4514635CEEF68FA557BF034E86FA7EE27CF344F9DC1C34E65147A87"
+    },
+    {
+      "name": "OpenJDK17.0.7_x64_windows",
+      "size": "180 MB",
+      "date": "2023-04-20",
+      "file": "OpenJDK17U-jdk_x64_windows_hotspot_17.0.7_7.zip",
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-jdk_x64_windows_hotspot_17.0.7_7.zip",
+      "sha256": "daab0bac6681e8dbf7bce071c2d6b1b6feaf7479897871a705d10f5f0873d299"
+    },
+    {
+      "name": "OpenJDK8u372b07-x64_windows",
+      "size": "101 MB",
+      "date": "2023-04-21",
+      "file": "OpenJDK8U-jdk_x64_windows_hotspot_8u372b07.zip",
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u372-b07/OpenJDK8U-jdk_x64_windows_hotspot_8u372b07.zip",
+      "sha256": "590409d2f9d4f95325dc1a4a7ff5f52766d7c12ef06a50f3990ecf705a3f829c"
+    }
+  ]
+}
