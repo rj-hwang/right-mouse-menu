@@ -2,6 +2,14 @@
   "name": "本文件为下载文件的配置文件",
   "items": [
     {
+      "name": "Notepad++v8.5.3-x64",
+      "size": "3.64 MB",
+      "date": "2023-05-15",
+      "file": "npp.8.5.3.portable.x64.7z",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.portable.x64.7z",
+      "sha256": "B27ACF588AB6810C7FF9184A21EE05C555303E15F86610793292B1721AB478B7"
+    },
+    {
       "name": "PortableGit-2.40.1-64-bit",
       "size": "46.9 MB",
       "date": "2023-04-26",
