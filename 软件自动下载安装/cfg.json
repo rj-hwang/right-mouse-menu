@@ -10,6 +10,14 @@
       "sha256": "B27ACF588AB6810C7FF9184A21EE05C555303E15F86610793292B1721AB478B7"
     },
     {
+      "name": "Sublime Text Build 4143 x64",
+      "size": "28.3 MB",
+      "date": "2022-11-11",
+      "file": "sublime_text_build_4143_x64.zip",
+      "url": "https://download.sublimetext.com/sublime_text_build_4143_x64.zip",
+      "sha256": "889E7D6D0DE115DEEFBB8D48AF5E754F7566100D8A6615902DA64798CD663CAC"
+    },
+    {
       "name": "VSCode-win32-x64-1.78.2",
       "size": "123 MB",
       "date": "2023-05-12",
