@@ -113,6 +113,24 @@
       "url": "https://downloads.gradle.org/distributions/gradle-8.1.1-bin.zip",
       "sha256": "e111cb9948407e26351227dabce49822fb88c37ee72f1d1582a69c68af2e702f",
       "website": "https://gradle.org/releases/"
+    },
+    {
+      "name": "Android commandlinetools-win-9477386",
+      "size": "133.5 MB",
+      "date": "2023-05-01",
+      "file": "commandlinetools-win-9477386_latest.zip",
+      "url": "https://dl.google.com/android/repository/commandlinetools-win-9477386_latest.zip",
+      "sha256": "696431978daadd33a28841320659835ba8db8080a535b8f35e9e60701ab8b491",
+      "website": "https://developer.android.com/studio#command-line-tools-only"
+    },
+    {
+      "name": "Android Studio 2022.2.1.19",
+      "size": "990 MB",
+      "date": "2023-05-01",
+      "file": "android-studio-2022.2.1.19-windows.zip",
+      "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2022.2.1.19/android-studio-2022.2.1.19-windows.zip",
+      "sha256": "8ec5b71a0f9df07542348a8021c39ea19e4bbfdab56b104ea688a0d53bb275d7",
+      "website": "https://developer.android.com/studio#android-studio-downloads"
     }
   ]
 }
