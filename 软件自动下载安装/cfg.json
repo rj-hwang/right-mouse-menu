@@ -131,6 +131,15 @@
       "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2022.2.1.19/android-studio-2022.2.1.19-windows.zip",
       "sha256": "8ec5b71a0f9df07542348a8021c39ea19e4bbfdab56b104ea688a0d53bb275d7",
       "website": "https://developer.android.com/studio#android-studio-downloads"
+    },
+    {
+      "name": "Flutter Stable Channel 3.10.1",
+      "size": "882 MB",
+      "date": "2023-05-18",
+      "file": "flutter_windows_3.10.1-stable.zip",
+      "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.10.1-stable.zip",
+      "sha256": "DB5A7209617FDF66F551F1081A4BFFFE1B3FB19ECAC61D3DB04C18AF0583E3E5",
+      "website": "https://docs.flutter.dev/release/archive#stable-channel-windows"
     }
   ]
 }
