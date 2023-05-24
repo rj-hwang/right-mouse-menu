@@ -104,6 +104,15 @@
       "file": "ffmpeg-release-essentials.7z",
       "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z",
       "sha256": "ee343e25f71cfd5b9de1f800dba2e5d4fd6da25118a82035acf7363f8086daa9"
+    },
+    {
+      "name": "Gradle-8.1.1-bin",
+      "size": "118 MB",
+      "date": "2023-04-21",
+      "file": "gradle-8.1.1-bin.zip",
+      "url": "https://downloads.gradle.org/distributions/gradle-8.1.1-bin.zip",
+      "sha256": "e111cb9948407e26351227dabce49822fb88c37ee72f1d1582a69c68af2e702f",
+      "website": "https://gradle.org/releases/"
     }
   ]
 }
