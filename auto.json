@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "name": "自动下载安装便携版软件的配置",
+  "downloadToDir": "d:/tools/portable-apps",
+  "installToDir": "d:/app/portable",
+  "dataDir": "d:/data",
+  "items": [
+    {
+      "name": "Notepad++",
+      "version": "v8.5.3-x64",
+      "size": "3.64 MB",
+      "releaseDate": "2023-05-15",
+      "file": "npp.8.5.3.portable.x64.7z",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.3/npp.8.5.3.portable.x64.7z",
+      "sha256": "B27ACF588AB6810C7FF9184A21EE05C555303E15F86610793292B1721AB478B7",
+      "rootDirInCompressFile": "",
+      "envs": []
+    },
+    {
+      "name": "Maven",
+      "version": "v3.9.2",
+      "size": "8.91 MB",
+      "releaseDate": "2023-05-11",
+      "file": "apache-maven-3.9.2-bin.zip",
+      "url": "https://dlcdn.apache.org/maven/maven-3/3.9.2/binaries/apache-maven-3.9.2-bin.zip",
+      "sha512": "f7296534ce624f688268e55544ffdf0b37562ac71dbcede4fe4f994b4e9487b7d66934849204373e127cfacc709cd5fd9152a53c06d778fc391aee84aa3364a3",
+      "rootDirInCompressFile": "apache-maven-3.9.2",
+      "envs": {
+        "M2_HOME": "$installToDir/$name",
+        "Path+": "$M2_HOME/bin" 
+      }
+    }
+  ]
+}

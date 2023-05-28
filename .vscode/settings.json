@@ -1,4 +1,7 @@
 {
   "files.encoding": "gbk",
-  "editor.formatOnSave": false
+  "editor.formatOnSave": true,
+  "[powershell]": {
+    "editor.tabSize": 2
+  }
 }
