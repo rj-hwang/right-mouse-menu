@@ -6,6 +6,12 @@
         [
             //...
             {
+              "commandline": "powershell.exe -NoExit -Command \"$env:JAVA_HOME=$env:JAVA8_HOME;$env:Path=$env:PATH8;java -version\"",
+              "icon": "D:/app/icons8-powershell-color-32.png",
+              "name": "PowerShell with Java8",
+              "startingDirectory": "D:/work/gitee-gftaxi"
+            },
+            {
                 "commandline": "D:/app/green/Git/bin/bash.exe -li",
                 "hidden": false,
                 "icon": "D:/app/green/Git/mingw64/share/git/git-for-windows.ico",
