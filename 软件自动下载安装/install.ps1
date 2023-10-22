@@ -22,6 +22,7 @@ Write-Host $(Get-date) 开始
 #     [Environment]::SetEnvironmentVariable($name, $value, "User")
 #   }
 # }
+# ./7za.exe x "downloads/npp.8.5.3.portable.x64.7z" -aoa -o"temp/npp.8.5.3.portable.x64"
 
 # 2. 下载绿色软件
 $toDir = "downloads"

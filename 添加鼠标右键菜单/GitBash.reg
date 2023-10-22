@@ -5,17 +5,17 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\shell\git_bash]
 @="Open in Git Bash"
-"Icon"="\"D:\\app\\green\\git\\git-bash.exe\",0"
+"Icon"="\"D:\\app-portable\\git\\git-bash.exe\",0"
 
 [HKEY_CLASSES_ROOT\Directory\shell\git_bash\command]
-@="\"D:\\app\\green\\git\\git-bash.exe\""
+@="\"D:\\app-portable\\git\\git-bash.exe\""
 
 ; This will make it appear when you right click INSIDE a folder
 ; The "Icon" line can be removed if you don't want the icon to appear
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\git_bash]
 @="Open in Git Bash"
-"Icon"="\"D:\\app\\green\\git\\git-bash.exe\",0"
+"Icon"="\"D:\\app-portable\\git\\git-bash.exe\",0"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\git_bash\command]
-@="\"D:\\app\\green\\git\\git-bash.exe\""
+@="\"D:\\app-portable\\git\\git-bash.exe\""

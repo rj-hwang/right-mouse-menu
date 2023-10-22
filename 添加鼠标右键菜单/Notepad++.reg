@@ -3,27 +3,27 @@ Windows Registry Editor Version 5.00
 ; Open files
 [HKEY_CLASSES_ROOT\*\shell\notepad++]
 @="Open with Notepad++"
-"Icon"="D:\\app\\green\\notepad++\\notepad++.exe,0"
+"Icon"="D:\\app-portable\\notepad++\\notepad++.exe,0"
 
 [HKEY_CLASSES_ROOT\*\shell\notepad++\command]
-@="\"D:\\app\\green\\notepad++\\notepad++.exe\" \"%1\""
+@="\"D:\\app-portable\\notepad++\\notepad++.exe\" \"%1\""
 
 ; This will make it appear when you right click ON a folder
 ; The "Icon" line can be removed if you don't want the icon to appear
 
 [HKEY_CLASSES_ROOT\Directory\shell\notepad++]
 @="Open folder with Notepad++"
-"Icon"="\"D:\\app\\green\\notepad++\\notepad++.exe\",0"
+"Icon"="\"D:\\app-portable\\notepad++\\notepad++.exe\",0"
 
 [HKEY_CLASSES_ROOT\Directory\shell\notepad++\command]
-@="\"D:\\app\\green\\notepad++\\notepad++.exe\" \"%1\""
+@="\"D:\\app-portable\\notepad++\\notepad++.exe\" \"%1\""
 
 ; This will make it appear when you right click INSIDE a folder
 ; The "Icon" line can be removed if you don't want the icon to appear
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\notepad++]
 @="Open folder with Notepad++"
-"Icon"="\"D:\\app\\green\\notepad++\\notepad++.exe\",0"
+"Icon"="\"D:\\app-portable\\notepad++\\notepad++.exe\",0"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\notepad++\command]
-@="\"D:\\app\\green\\notepad++\\notepad++.exe\" \"%V\""
+@="\"D:\\app-portable\\notepad++\\notepad++.exe\" \"%V\""
